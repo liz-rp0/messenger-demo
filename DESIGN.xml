@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design_system name="irestore-shadcn-migration">
+    <meta>
+        <framework>Next.js 16 (App Router) &amp; React 19</framework>
+        <ui_library>Shadcn UI (Base UI Primitives)</ui_library>
+        <styling>Tailwind CSS v4 (@theme variable binding)</styling>
+    </meta>
+
+    <theme_tokens>
+        <colors>
+            <color name="primary" value="oklch(0.205 0 0)">สีหลักสำหรับปุ่มและตัวอักษรเน้นย้ำ</color>
+            <color name="background" value="oklch(1 0 0)">สีพื้นหลังสไตล์คลีนมินิมอล</color>
+            <color name="card" value="oklch(1 0 0)">กล่อง Card สำหรับครอบหน้าจอและเคสต่างๆ</color>
+            <color name="border" value="oklch(0.922 0 0)">ขอบเส้นแบ่งส่วนประณีตบางเบา</color>
+        </colors>
+        <animations>
+            <animation class="fade-in">สำหรับแอนิเมชันเปิดหน้าจอแบบราบรื่น</animation>
+            <animation class="progress-pulse">เอฟเฟกต์กระเพื่อมแสดงสถานะปัจจุบันในแถบขั้นตอน</animation>
+        </animations>
+    </theme_tokens>
+
+    <components_implemented>
+        <component name="Button" path="src/components/ui/button.tsx">
+            <base>@base-ui/react/button</base>
+            <variants>default, outline, secondary, ghost, destructive, link</variants>
+        </component>
+        <component name="Input" path="src/components/ui/input.tsx">
+            <base>@base-ui/react/input</base>
+        </component>
+        <component name="Card" path="src/components/ui/card.tsx">
+            <structure>Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter</structure>
+        </component>
+        <component name="Label" path="src/components/ui/label.tsx" />
+        <component name="Textarea" path="src/components/ui/textarea.tsx" />
+    </components_implemented>
+
+    <pages_redesigned>
+        <page route="/login" file="src/app/login/page.tsx">
+            <status>Migrated to Shadcn</status>
+            <visual_specs>
+                - โครงสร้างกล่องล็อกอินใช้ Card จาก Shadcn ครอบทั้งหมด ป้องกันขอบบิดเบี้ยวบนอุปกรณ์พกพา
+                - ฟิลด์กรอกข้อมูลประกอบด้วย Label และอินพุตครอบด้วย User/Lock icons สวยงามมีมิติ
+                - ปุ่มกดใช้ Button ตัวใหม่รองรับ Spinner Loading เมื่อเกิดการเชื่อมต่อ API
+            </visual_specs>
+        </page>
+        <page route="/dashboard" file="src/app/dashboard/page.tsx">
+            <status>Migrated to Shadcn</status>
+            <visual_specs>
+                - Live Tracking Board แสดงผลแยกตามสถานะด้วย Chip Color Tag สไตล์พรีเมียม (สีส้ม/สีฟ้า/สีม่วง/สีเขียว)
+                - ฟอร์มวางข้อความของ Admin ยกระดับมาใช้ Textarea และ Button สไตล์ Shadcn ชัดเจน
+                - แถบความคืบหน้า (Stepper Line) ออกแบบด้วยสีสันที่รับกับปุ่ม action ปรับเปลี่ยนอย่างต่อเนื่องและตอบสนองตามขนาดหน้าจออย่างลื่นไหล
+            </visual_specs>
+        </page>
+    </pages_redesigned>
+</design_system>

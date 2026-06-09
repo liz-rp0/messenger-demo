@@ -1,0 +1,66 @@
+ ### 1. 📦 Inventory & Stock Health (High Priority)
+
+  Currently, there are no charts or metrics for inventory on your dashboard, even though you have a complete inventory
+  database.
+
+  • Low Stock Alert Indicator: A chart highlighting items where  stock_qty  is less than or equal to  min_order_point
+  (marked as "Need to Order").
+  • Stock Volume by Category: A pie/donut chart showing how your stock is distributed across categories (e.g.,
+  Batteries, Accessories, Spare Parts).
+  • Out-of-Stock / Critical Items List: A bar chart showing the items closest to running out.
+
+  ### 2. 💰 Financial & Revenue Trends Over Time
+
+  Right now, you only see static numbers for "Today" and "This Month" revenue.
+
+  • Daily/Weekly Revenue Trend: A line or area chart showing how much money was collected (from cases with status
+  PAID ) over the last 30 days. This helps you identify peak days of the week.
+  • Average Order Value (AOV): A metric tracking the average price of delivery jobs, letting you see if your average
+  deal size is increasing or decreasing.
+
+  ### 3. 🛵 Messenger Efficiency & Performance
+
+  Currently, you have a simple leaderboard showing the count of assigned cases, but it doesn't show quality or speed.
+
+  • Job Completion Rate: A comparison chart showing how many cases a messenger was assigned versus how many they
+  actually completed ( PAID ).
+  • Status Bottlenecks: A funnel or horizontal bar chart showing how many cases are stuck in  ACCEPTED  or  EN_ROUTE
+  to spot where messengers are getting delayed.
+
+  ### 4. 🔋 Warranty & Battery Claims Analysis
+
+  Your backend has code to evaluate battery claims based on warranty age and health ( evaluateBatteryClaim ).
+
+  • Warranty Claim Approval Rate: A chart showing the percentage of claims that get approved vs. rejected (e.g.,
+  Premium vs. Standard batteries).
+  • Most Claimed SKUs: A chart highlighting which battery types fail or get claimed the most, indicating potential
+  supplier/quality issues.
+  ──────
+  ### Would you like me to build any of these charts?
+  Since Recharts is already installed in your project, I can easily implement:
+
+  1. A Revenue & Case volume timeline (using area/line charts).
+  2. An Inventory status breakdown (using pie/bar charts for stock levels and low-stock items).
+  3. A Messenger delivery success comparison (using grouped bar charts).
+
+
+
+ไปได้เลย
+ส่งเครื่อง+เก็บเงิน 
+
+ุ
+#062696358  iPhone 13 128GB Midnight
+ราคา 12,500 บาท
+มัดจำ 200 บาท (จ่ายแล้ว)
+
+รวมเก็บ 12,300 บาท
+
+เลขบัญชี :2243763927 
+ธนาคาร :กสิกรไทย
+ชื่อบัญชี :รับโฟน ช็อป
+                                       
+0952349573
+
+maps
+📌ดอนเมือง
+https://maps.app.goo.gl/ZBExsaSxx4iPFQSc8?g_st=i

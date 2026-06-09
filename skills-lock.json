@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "computedHash": "a9ac6b4cfdefcd4b52361bf13a953a8448d2ba4c2d71e80367fabda03dda9d9e"
+    }
+  }
+}

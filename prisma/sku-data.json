@@ -1,0 +1,1658 @@
+[
+  {
+    "sku": "B-IP8",
+    "product_name": "iPhone 8",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP8P",
+    "product_name": "iPhone 8 Plus",
+    "category": "Battery",
+    "stock_qty": 2,
+    "min_order_point": 1,
+    "status": "In Stock"
+  },
+  {
+    "sku": "B-IPX",
+    "product_name": "iPhone X",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IPXR",
+    "product_name": "iPhone XR",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IPXS",
+    "product_name": "iPhone XS",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IPXM",
+    "product_name": "iPhone XS Max",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP11",
+    "product_name": "iPhone 11",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP11PR",
+    "product_name": "iPhone 11 Pro",
+    "category": "Battery",
+    "stock_qty": -1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP11PM",
+    "product_name": "iPhone 11 Pro Max",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP12M",
+    "product_name": "iPhone 12 Mini",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP12/PR",
+    "product_name": "iPhone 12/PR",
+    "category": "Battery",
+    "stock_qty": 3,
+    "min_order_point": 1,
+    "status": "In Stock"
+  },
+  {
+    "sku": "B-IP12PM",
+    "product_name": "iPhone 12 Pro Max",
+    "category": "Battery",
+    "stock_qty": 2,
+    "min_order_point": 1,
+    "status": "In Stock"
+  },
+  {
+    "sku": "BN-IP12M",
+    "product_name": "iPhone 12 Mini",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BN-IP12/PR",
+    "product_name": "iPhone 12/PR",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP13M",
+    "product_name": "iPhone 13 Mini",
+    "category": "Battery",
+    "stock_qty": 3,
+    "min_order_point": 1,
+    "status": "In Stock"
+  },
+  {
+    "sku": "B-IP13",
+    "product_name": "iPhone 13",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP13PR",
+    "product_name": "iPhone 13 Pro",
+    "category": "Battery",
+    "stock_qty": 2,
+    "min_order_point": 1,
+    "status": "In Stock"
+  },
+  {
+    "sku": "B-IP13PM",
+    "product_name": "iPhone 13 Pro Max",
+    "category": "Battery",
+    "stock_qty": 3,
+    "min_order_point": 1,
+    "status": "In Stock"
+  },
+  {
+    "sku": "B-IP14",
+    "product_name": "iPhone 14",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP14P",
+    "product_name": "iPhone 14 Plus",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP14PR",
+    "product_name": "iPhone 14 Pro",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP14PM",
+    "product_name": "iPhone 14 Pro Max",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP15",
+    "product_name": "iPhone 15",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP15P",
+    "product_name": "iPhone 15 Plus",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP15PR",
+    "product_name": "iPhone 15 Pro",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP15PM",
+    "product_name": "iPhone 15 Pro Max",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP16",
+    "product_name": "iPhone 16",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP16P",
+    "product_name": "iPhone 16 Plus",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP16PR",
+    "product_name": "iPhone 16 Pro",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP16PM",
+    "product_name": "iPhone 16 Pro Max",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP17",
+    "product_name": "iPhone 17",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP17P",
+    "product_name": "iPhone 17 Plus",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP17PR",
+    "product_name": "iPhone 17 Pro",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IP17PM",
+    "product_name": "iPhone 17 Pro Max",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IPSE2",
+    "product_name": "iPhone SE (Gen 2)",
+    "category": "Battery",
+    "stock_qty": 0,
+    "min_order_point": 2,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "B-IPSE3",
+    "product_name": "iPhone SE (Gen 3)",
+    "category": "Battery",
+    "stock_qty": 1,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP8",
+    "product_name": "iPhone 8 (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP8P",
+    "product_name": "iPhone 8 Plus (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IPX",
+    "product_name": "iPhone X (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IPXR",
+    "product_name": "iPhone XR (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IPXS",
+    "product_name": "iPhone XS (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IPXM",
+    "product_name": "iPhone XS Max (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP11",
+    "product_name": "iPhone 11 (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP11PR",
+    "product_name": "iPhone 11 Pro (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP11PM",
+    "product_name": "iPhone 11 Pro Max (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP12M",
+    "product_name": "iPhone 12 Mini (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP12/PR",
+    "product_name": "iPhone 12/PR (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP12PM",
+    "product_name": "iPhone 12 Pro Max (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP13M",
+    "product_name": "iPhone 13 Mini (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP13",
+    "product_name": "iPhone 13 (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP13PR",
+    "product_name": "iPhone 13 Pro (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP13PM",
+    "product_name": "iPhone 13 Pro Max (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP14",
+    "product_name": "iPhone 14 (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP14P",
+    "product_name": "iPhone 14 Plus (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP14PR",
+    "product_name": "iPhone 14 Pro (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP14PM",
+    "product_name": "iPhone 14 Pro Max (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP15",
+    "product_name": "iPhone 15 (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP15P",
+    "product_name": "iPhone 15 Plus (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP15PR",
+    "product_name": "iPhone 15 Pro (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP15PM",
+    "product_name": "iPhone 15 Pro Max (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP16",
+    "product_name": "iPhone 16 (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP16P",
+    "product_name": "iPhone 16 Plus (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP16PR",
+    "product_name": "iPhone 16 Pro (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP16PM",
+    "product_name": "iPhone 16 Pro Max (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP17",
+    "product_name": "iPhone 17 (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP17P",
+    "product_name": "iPhone 17 Plus (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP17PR",
+    "product_name": "iPhone 17 Pro (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IP17PM",
+    "product_name": "iPhone 17 Pro Max (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IPSE2",
+    "product_name": "iPhone SE (Gen 2) (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "S-IPSE3",
+    "product_name": "iPhone SE (Gen 3) (Screen)",
+    "category": "Screen",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP8",
+    "product_name": "iPhone 8 (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP8P",
+    "product_name": "iPhone 8 Plus (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IPX",
+    "product_name": "iPhone X (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IPXR",
+    "product_name": "iPhone XR (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IPXS",
+    "product_name": "iPhone XS (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IPXM",
+    "product_name": "iPhone XS Max (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP11",
+    "product_name": "iPhone 11 (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP11PR",
+    "product_name": "iPhone 11 Pro (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP11PM",
+    "product_name": "iPhone 11 Pro Max (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP12M",
+    "product_name": "iPhone 12 Mini (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP12",
+    "product_name": "iPhone 12 (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP12PR",
+    "product_name": "iPhone 12 Pro (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP12PM",
+    "product_name": "iPhone 12 Pro Max (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP13M",
+    "product_name": "iPhone 13 Mini (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP13",
+    "product_name": "iPhone 13 (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP13PR",
+    "product_name": "iPhone 13 Pro (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP13PM",
+    "product_name": "iPhone 13 Pro Max (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP14",
+    "product_name": "iPhone 14 (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP14P",
+    "product_name": "iPhone 14 Plus (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP14PR",
+    "product_name": "iPhone 14 Pro (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP14PM",
+    "product_name": "iPhone 14 Pro Max (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP15",
+    "product_name": "iPhone 15 (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP15P",
+    "product_name": "iPhone 15 Plus (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP15PR",
+    "product_name": "iPhone 15 Pro (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP15PM",
+    "product_name": "iPhone 15 Pro Max (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP16",
+    "product_name": "iPhone 16 (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP16P",
+    "product_name": "iPhone 16 Plus (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP16PR",
+    "product_name": "iPhone 16 Pro (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP16PM",
+    "product_name": "iPhone 16 Pro Max (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP17",
+    "product_name": "iPhone 17 (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP17P",
+    "product_name": "iPhone 17 Plus (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP17PR",
+    "product_name": "iPhone 17 Pro (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IP17PM",
+    "product_name": "iPhone 17 Pro Max (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IPSE2",
+    "product_name": "iPhone SE (Gen 2) (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "P-IPSE3",
+    "product_name": "iPhone SE (Gen 3) (Charging Port)",
+    "category": "Charging Port",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP8",
+    "product_name": "iPhone 8 (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP8P",
+    "product_name": "iPhone 8 Plus (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IPX",
+    "product_name": "iPhone X (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IPXR",
+    "product_name": "iPhone XR (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IPXS",
+    "product_name": "iPhone XS (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IPXM",
+    "product_name": "iPhone XS Max (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP11",
+    "product_name": "iPhone 11 (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP11PR",
+    "product_name": "iPhone 11 Pro (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP11PM",
+    "product_name": "iPhone 11 Pro Max (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP12M",
+    "product_name": "iPhone 12 Mini (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP12",
+    "product_name": "iPhone 12 (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP12PR",
+    "product_name": "iPhone 12 Pro (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP12PM",
+    "product_name": "iPhone 12 Pro Max (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP13M",
+    "product_name": "iPhone 13 Mini (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP13",
+    "product_name": "iPhone 13 (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP13PR",
+    "product_name": "iPhone 13 Pro (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP13PM",
+    "product_name": "iPhone 13 Pro Max (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP14",
+    "product_name": "iPhone 14 (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP14P",
+    "product_name": "iPhone 14 Plus (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP14PR",
+    "product_name": "iPhone 14 Pro (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP14PM",
+    "product_name": "iPhone 14 Pro Max (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP15",
+    "product_name": "iPhone 15 (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP15P",
+    "product_name": "iPhone 15 Plus (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP15PR",
+    "product_name": "iPhone 15 Pro (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP15PM",
+    "product_name": "iPhone 15 Pro Max (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP16",
+    "product_name": "iPhone 16 (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP16P",
+    "product_name": "iPhone 16 Plus (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP16PR",
+    "product_name": "iPhone 16 Pro (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP16PM",
+    "product_name": "iPhone 16 Pro Max (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP17",
+    "product_name": "iPhone 17 (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP17P",
+    "product_name": "iPhone 17 Plus (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP17PR",
+    "product_name": "iPhone 17 Pro (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IP17PM",
+    "product_name": "iPhone 17 Pro Max (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IPSE2",
+    "product_name": "iPhone SE (Gen 2) (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CF-IPSE3",
+    "product_name": "iPhone SE (Gen 3) (Front Camera)",
+    "category": "Front Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP8",
+    "product_name": "iPhone 8 (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP8P",
+    "product_name": "iPhone 8 Plus (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IPX",
+    "product_name": "iPhone X (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IPXR",
+    "product_name": "iPhone XR (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IPXS",
+    "product_name": "iPhone XS (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IPXM",
+    "product_name": "iPhone XS Max (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP11",
+    "product_name": "iPhone 11 (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP11PR",
+    "product_name": "iPhone 11 Pro (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP11PM",
+    "product_name": "iPhone 11 Pro Max (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP12M",
+    "product_name": "iPhone 12 Mini (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP12",
+    "product_name": "iPhone 12 (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP12PR",
+    "product_name": "iPhone 12 Pro (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP12PM",
+    "product_name": "iPhone 12 Pro Max (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP13M",
+    "product_name": "iPhone 13 Mini (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP13",
+    "product_name": "iPhone 13 (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP13PR",
+    "product_name": "iPhone 13 Pro (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP13PM",
+    "product_name": "iPhone 13 Pro Max (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP14",
+    "product_name": "iPhone 14 (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP14P",
+    "product_name": "iPhone 14 Plus (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP14PR",
+    "product_name": "iPhone 14 Pro (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP14PM",
+    "product_name": "iPhone 14 Pro Max (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP15",
+    "product_name": "iPhone 15 (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP15P",
+    "product_name": "iPhone 15 Plus (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP15PR",
+    "product_name": "iPhone 15 Pro (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP15PM",
+    "product_name": "iPhone 15 Pro Max (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP16",
+    "product_name": "iPhone 16 (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP16P",
+    "product_name": "iPhone 16 Plus (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP16PR",
+    "product_name": "iPhone 16 Pro (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP16PM",
+    "product_name": "iPhone 16 Pro Max (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP17",
+    "product_name": "iPhone 17 (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP17P",
+    "product_name": "iPhone 17 Plus (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP17PR",
+    "product_name": "iPhone 17 Pro (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IP17PM",
+    "product_name": "iPhone 17 Pro Max (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IPSE2",
+    "product_name": "iPhone SE (Gen 2) (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "CR-IPSE3",
+    "product_name": "iPhone SE (Gen 3) (Rear Camera)",
+    "category": "Rear Camera",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP8",
+    "product_name": "iPhone 8 (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP8P",
+    "product_name": "iPhone 8 Plus (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IPX",
+    "product_name": "iPhone X (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IPXR",
+    "product_name": "iPhone XR (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IPXS",
+    "product_name": "iPhone XS (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IPXM",
+    "product_name": "iPhone XS Max (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP11",
+    "product_name": "iPhone 11 (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP11PR",
+    "product_name": "iPhone 11 Pro (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP11PM",
+    "product_name": "iPhone 11 Pro Max (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP12M",
+    "product_name": "iPhone 12 Mini (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP12/PR",
+    "product_name": "iPhone 12/PR (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP12PM",
+    "product_name": "iPhone 12 Pro Max (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP13M",
+    "product_name": "iPhone 13 Mini (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP13",
+    "product_name": "iPhone 13 (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP13PR",
+    "product_name": "iPhone 13 Pro (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP13PM",
+    "product_name": "iPhone 13 Pro Max (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP14",
+    "product_name": "iPhone 14 (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP14P",
+    "product_name": "iPhone 14 Plus (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP14PR",
+    "product_name": "iPhone 14 Pro (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP14PM",
+    "product_name": "iPhone 14 Pro Max (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP15",
+    "product_name": "iPhone 15 (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP15P",
+    "product_name": "iPhone 15 Plus (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP15PR",
+    "product_name": "iPhone 15 Pro (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP15PM",
+    "product_name": "iPhone 15 Pro Max (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP16",
+    "product_name": "iPhone 16 (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP16P",
+    "product_name": "iPhone 16 Plus (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP16PR",
+    "product_name": "iPhone 16 Pro (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP16PM",
+    "product_name": "iPhone 16 Pro Max (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP17",
+    "product_name": "iPhone 17 (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP17P",
+    "product_name": "iPhone 17 Plus (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP17PR",
+    "product_name": "iPhone 17 Pro (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  },
+  {
+    "sku": "BG-IP17PM",
+    "product_name": "iPhone 17 Pro Max (Back Glass)",
+    "category": "Back Glass",
+    "stock_qty": 0,
+    "min_order_point": 1,
+    "status": "Need to Order"
+  }
+]

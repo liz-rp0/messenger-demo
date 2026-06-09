@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Repair Status | iRestore Professional Apple Services</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-bright": "#faf8fe",
+                    "secondary-fixed": "#d7e3ff",
+                    "surface": "#faf8fe",
+                    "on-surface": "#1a1b1f",
+                    "tertiary-fixed": "#ebe0de",
+                    "secondary-fixed-dim": "#aac7ff",
+                    "on-surface-variant": "#46464a",
+                    "secondary-container": "#5095fe",
+                    "inverse-on-surface": "#f1f0f5",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed-dim": "#cec4c2",
+                    "surface-variant": "#e3e2e7",
+                    "secondary": "#005cba",
+                    "primary-container": "#1d1d1f",
+                    "on-secondary-fixed-variant": "#00458e",
+                    "primary": "#030304",
+                    "outline-variant": "#c7c6ca",
+                    "on-secondary-container": "#002d61",
+                    "outline": "#77767b",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-container": "#8c8382",
+                    "on-primary-fixed-variant": "#474649",
+                    "tertiary": "#040302",
+                    "primary-fixed": "#e4e2e4",
+                    "on-background": "#1a1b1f",
+                    "inverse-surface": "#2f3034",
+                    "on-primary-container": "#868587",
+                    "surface-tint": "#5f5e60",
+                    "surface-container-highest": "#e3e2e7",
+                    "primary-fixed-dim": "#c8c6c8",
+                    "on-secondary-fixed": "#001b3e",
+                    "on-secondary": "#ffffff",
+                    "surface-container": "#eeedf3",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "surface-container-low": "#f4f3f8",
+                    "on-primary-fixed": "#1b1b1d",
+                    "surface-container-high": "#e9e7ed",
+                    "background": "#faf8fe",
+                    "on-tertiary-fixed-variant": "#4c4544",
+                    "on-tertiary-fixed": "#1f1a19",
+                    "surface-dim": "#dad9df",
+                    "tertiary-container": "#211c1b",
+                    "on-error": "#ffffff",
+                    "inverse-primary": "#c8c6c8",
+                    "error": "#ba1a1a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "sm": "8px",
+                    "md": "16px",
+                    "xs": "4px",
+                    "unit": "4px",
+                    "lg": "24px",
+                    "gutter": "24px",
+                    "container-max": "1200px",
+                    "xxl": "80px",
+                    "xl": "48px"
+            },
+            "fontFamily": {
+                    "display": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "label-md": ["Inter"],
+                    "headline-lg": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "headline-lg-mobile": ["Inter"],
+                    "headline-md": ["Inter"],
+                    "body-md": ["Inter"]
+            },
+            "fontSize": {
+                    "display": ["56px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-sm": ["12px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.01em", "fontWeight": "500"}],
+                    "headline-lg": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "body-lg": ["19px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .fade-in { animation: fadeIn 0.8s ease-out forwards; opacity: 0; }
+        .slide-up { animation: slideUp 0.6s ease-out forwards; opacity: 0; transform: translateY(20px); }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        
+        .progress-pulse {
+            animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse-ring {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.2); opacity: 0.2; }
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-secondary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-md border-b border-outline-variant/30 dark:border-outline-variant/10">
+<div class="max-w-container-max mx-auto px-lg flex items-center justify-between h-xxl">
+<div class="font-headline-md text-headline-md font-bold tracking-tight text-primary dark:text-on-primary">
+                iRestore
+            </div>
+<div class="hidden md:flex items-center gap-lg">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Services</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Why Us</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Reviews</a>
+<button class="bg-primary text-on-primary px-lg py-sm rounded-lg font-label-md text-label-md hover:scale-95 transition-transform duration-150">
+                    Book Repair
+                </button>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-[120px] pb-xxl px-lg max-w-container-max mx-auto">
+<!-- Hero Section -->
+<section class="mb-xl fade-in">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-md">
+<div>
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">Repair Status</span>
+<h1 class="font-headline-lg text-headline-lg md:text-display mt-xs">iPhone 15 Pro</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-xs">Screen Replacement • Order #IR-12345</p>
+</div>
+<div class="flex items-center gap-sm bg-surface-container-low px-md py-sm rounded-xl border border-outline-variant/20">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface">Genuine Parts Guaranteed</span>
+</div>
+</div>
+</section>
+<!-- Progress Tracker -->
+<section class="mb-xl slide-up" style="animation-delay: 0.1s;">
+<div class="bg-surface-container-lowest rounded-xl p-xl shadow-[0px_4px_20px_rgba(0,0,0,0.04)]">
+<div class="relative flex justify-between items-start">
+<!-- Progress Line Background -->
+<div class="absolute top-6 left-0 w-full h-[2px] bg-outline-variant/30 z-0"></div>
+<!-- Progress Line Active -->
+<div class="absolute top-6 left-0 w-[66%] h-[2px] bg-secondary z-0"></div>
+<!-- Step 1: Received -->
+<div class="relative z-10 flex flex-col items-center text-center w-1/4">
+<div class="w-12 h-12 rounded-full bg-secondary text-on-primary flex items-center justify-center mb-sm">
+<span class="material-symbols-outlined">check</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Received</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Oct 21, 09:30 AM</span>
+</div>
+<!-- Step 2: Diagnosing -->
+<div class="relative z-10 flex flex-col items-center text-center w-1/4">
+<div class="w-12 h-12 rounded-full bg-secondary text-on-primary flex items-center justify-center mb-sm">
+<span class="material-symbols-outlined">analytics</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Diagnosing</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Oct 21, 02:15 PM</span>
+</div>
+<!-- Step 3: Repairing -->
+<div class="relative z-10 flex flex-col items-center text-center w-1/4">
+<div class="relative">
+<div class="absolute -inset-2 bg-secondary/20 rounded-full progress-pulse"></div>
+<div class="w-12 h-12 rounded-full bg-secondary text-on-primary flex items-center justify-center mb-sm relative">
+<span class="material-symbols-outlined">build</span>
+</div>
+</div>
+<span class="font-label-md text-label-md text-secondary font-bold">Repairing</span>
+<span class="font-label-sm text-label-sm text-secondary">In Progress</span>
+</div>
+<!-- Step 4: Ready -->
+<div class="relative z-10 flex flex-col items-center text-center w-1/4">
+<div class="w-12 h-12 rounded-full bg-surface-container-high text-outline flex items-center justify-center mb-sm">
+<span class="material-symbols-outlined">package_2</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Ready</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pending</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-lg slide-up" style="animation-delay: 0.2s;">
+<!-- Detailed Status Card -->
+<div class="lg:col-span-2 space-y-lg">
+<div class="bg-surface-container-lowest rounded-xl p-xl shadow-[0px_4px_20px_rgba(0,0,0,0.04)] border border-outline-variant/10">
+<div class="flex items-start gap-md mb-lg">
+<div class="p-md bg-secondary-fixed text-on-secondary-fixed-variant rounded-lg">
+<span class="material-symbols-outlined" style="font-variation-settings: 'opsz' 32;">engineering</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Live Technician Update</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-xs">"Technician is currently installing the genuine OLED display assembly. Post-repair calibration and waterproofing tests will follow."</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-lg pt-lg border-t border-outline-variant/20">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Estimated Completion</span>
+<div class="flex items-center gap-xs mt-xs text-secondary font-semibold">
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+<span class="font-body-md text-body-md">Oct 24, 2024</span>
+</div>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Service Location</span>
+<div class="flex items-center gap-xs mt-xs text-on-surface">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+<span class="font-body-md text-body-md">iRestore Flagship - Downtown</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Support Action -->
+<div class="bg-primary-container text-on-primary-container rounded-xl p-xl flex flex-col md:flex-row items-center justify-between gap-lg">
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-secondary-fixed" style="font-size: 32px;">support_agent</span>
+<div>
+<h4 class="font-headline-md text-headline-md text-white">Have questions?</h4>
+<p class="font-body-md text-on-primary-container/80">Our certified technicians are ready to assist you.</p>
+</div>
+</div>
+<button class="bg-secondary text-white px-xl py-md rounded-lg font-label-md text-label-md hover:brightness-110 transition-all active:scale-95 whitespace-nowrap">
+                        Contact Support
+                    </button>
+</div>
+</div>
+<!-- Device Summary Sidebar -->
+<div class="space-y-lg">
+<div class="bg-surface-container-low rounded-xl p-xl border border-outline-variant/10">
+<h3 class="font-label-md text-label-md font-bold text-on-surface mb-lg flex items-center gap-xs">
+<span class="material-symbols-outlined text-on-surface-variant">info</span>
+                        Device Details
+                    </h3>
+<div class="space-y-md">
+<div class="flex justify-between items-center py-sm border-b border-outline-variant/20">
+<span class="font-label-md text-on-surface-variant">Model</span>
+<span class="font-label-md text-on-surface font-semibold text-right">iPhone 15 Pro, 256GB, Blue Titanium</span>
+</div>
+<div class="flex justify-between items-center py-sm border-b border-outline-variant/20">
+<span class="font-label-md text-on-surface-variant">Serial Number</span>
+<span class="font-label-md text-on-surface font-mono">G9FPX0...D7X</span>
+</div>
+<div class="flex justify-between items-center py-sm border-b border-outline-variant/20">
+<span class="font-label-md text-on-surface-variant">Warranty</span>
+<span class="bg-secondary-fixed/50 text-on-secondary-fixed-variant px-sm py-xs rounded font-label-sm text-label-sm">In Warranty</span>
+</div>
+<div class="flex justify-between items-center py-sm">
+<span class="font-label-md text-on-surface-variant">Estimated Cost</span>
+<span class="font-label-md text-on-surface font-bold">$0.00 (Covered)</span>
+</div>
+</div>
+<div class="mt-xl">
+<div class="w-full h-48 bg-white rounded-lg overflow-hidden flex items-center justify-center p-md">
+<img alt="iPhone 15 Pro" class="w-full h-full object-contain" data-alt="A clean, professional close-up photograph of a Blue Titanium iPhone 15 Pro on a white minimalist surface. The lighting is soft and high-key, reflecting the premium industrial design of the device. The composition is centered with ample whitespace, maintaining a high-end corporate tech aesthetic consistent with Apple brand identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDznHjNW-cNimtCNWblHklVsjwLZx2PXkP0Kb1exMi2RwrVUus-nU5dezv192ESl6tdccjy0un-NVQvAPjP4l_eUtN8IST2Azmo3SeGOO6pcSSgFRBE8MIzfMejs2Ab3Jzqw48DPCqe_1ZgGe8lkWMOOi0Vnca67fvdxm3vJT6ioc_i7FBCRdkUHcSuTqm_ewQ1bexX4Qo2S_bVs3oKvCNa6ZIQkj44flOfKcRWapfvBQpYkLA3y0jSAta0Du6b-GJuZwQwI8cc1Yw"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full block bg-surface-container-lowest border-t border-outline-variant/20">
+<div class="max-w-container-max mx-auto px-lg py-xl flex flex-col md:flex-row justify-between gap-xl">
+<div class="flex flex-col gap-md">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-on-primary">
+                    iRestore
+                </div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
+                    Professional Apple diagnostics and repair using manufacturer-grade parts and precision instrumentation.
+                </p>
+<p class="font-label-sm text-label-sm text-on-surface-variant/70 mt-auto">
+                    © 2024 iRestore Professional Apple Services. All rights reserved.
+                </p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-2 gap-xl">
+<div class="flex flex-col gap-sm">
+<span class="font-label-md text-on-surface font-bold">Repairs</span>
+<a class="font-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 underline decoration-secondary" href="#">MacBook Repair</a>
+<a class="font-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 underline decoration-secondary" href="#">iPhone Repair</a>
+<a class="font-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 underline decoration-secondary" href="#">iPad Repair</a>
+<a class="font-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 underline decoration-secondary" href="#">iMac Repair</a>
+</div>
+<div class="flex flex-col gap-sm">
+<span class="font-label-md text-on-surface font-bold">Legal</span>
+<a class="font-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 underline decoration-secondary" href="#">Privacy Policy</a>
+<a class="font-label-sm text-on-surface-variant hover:text-primary transition-all duration-200 underline decoration-secondary" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Simple micro-interaction for active nav highlighting logic
+        document.addEventListener('DOMContentLoaded', () => {
+            const currentPath = window.location.pathname;
+            // In a real app, logic here would determine active tab
+            // For this specific view, no primary nav items match exactly, so we default to inactive styles.
+        });
+    </script>
+</body></html>
