@@ -44,10 +44,10 @@ export default function PublicTrackingPage({ params }: { params: Promise<{ order
     }
   }, [orderId])
 
+  // --- 1. LOADING STATE ---
   if (loading) {
     return (
       <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 font-sans antialiased flex flex-col justify-between">
-        {/* Top Bar Skeleton */}
         <nav className="w-full bg-white/85 dark:bg-zinc-900/85 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 h-16 flex items-center">
           <div className="w-full max-w-3xl mx-auto px-4 flex items-center justify-between">
             <Skeleton className="h-6 w-32" />
@@ -56,7 +56,6 @@ export default function PublicTrackingPage({ params }: { params: Promise<{ order
         </nav>
 
         <main className="flex-1 px-4 py-12 max-w-3xl mx-auto w-full space-y-6">
-          {/* Header Skeleton */}
           <div className="space-y-2">
             <Skeleton className="h-3 w-28" />
             <Skeleton className="h-8 w-64 mt-1" />
@@ -64,7 +63,6 @@ export default function PublicTrackingPage({ params }: { params: Promise<{ order
             <Skeleton className="h-7 w-56 rounded-xl mt-2" />
           </div>
 
-          {/* Stepper Timeline Skeleton */}
           <Card className="shadow-sm">
             <CardContent className="p-5 sm:p-6">
               <div className="relative pt-2 pb-1 flex justify-between items-center">
@@ -79,7 +77,6 @@ export default function PublicTrackingPage({ params }: { params: Promise<{ order
             </CardContent>
           </Card>
 
-          {/* Details Skeleton */}
           <Card className="shadow-sm">
             <CardContent className="p-4 sm:p-5 space-y-4">
               {Array.from({ length: 4 }).map((_, i) => (
@@ -91,27 +88,62 @@ export default function PublicTrackingPage({ params }: { params: Promise<{ order
             </CardContent>
           </Card>
         </main>
+        
+        <footer className="py-6 border-t border-zinc-200 dark:border-zinc-800 bg-white/50 dark:bg-zinc-900/50 text-center text-xs text-zinc-400">
+          &copy; {new Date().getFullYear()} Rubphone Shop. All rights reserved.
+        </footer>
       </div>
     )
   }
 
+  // --- 2. FIXED ERROR STATE (แก้ปัญหาเรื่อง Responsive ยุบตัว) ---
+// --- 2. FIXED ERROR STATE (แก้ไขจุดบั๊ก Flex ยุบตัว) ---
   if (error || !caseData) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 p-4">
-        <Alert variant="destructive" className="max-w-sm w-full">
-          <AlertCircle className="size-4" />
-          <AlertTitle className="text-xl font-bold">ไม่พบข้อมูล</AlertTitle>
-          <AlertDescription>{error || 'กรุณาตรวจสอบลิงก์ใหม่อีกครั้ง'}</AlertDescription>
-        </Alert>
+      <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 font-sans antialiased flex flex-col justify-between">
+        {/* Top Bar */}
+        <nav className="w-full bg-white/85 dark:bg-zinc-900/85 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 h-16 flex items-center">
+          <div className="w-full max-w-3xl mx-auto px-4 flex items-center justify-between">
+            <div className="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-50">Rubphone Shop</div>
+            <Badge variant="destructive" className="font-semibold">
+              เกิดข้อผิดพลาด
+            </Badge>
+          </div>
+        </nav>
+
+        {/*เปลี่ยนตรงนี้: ใช้โครงสร้างครอบเหมือนหน้าปกติ แต่ปรับด้านในเป็น flex-col เพื่อดันการ์ดให้อยู่ตรงกลางหน้าจอ */}
+        <main className="flex-1 px-4 py-12 w-full flex flex-col items-center justify-center min-h-[50vh]">
+          <div className="w-full max-w-full sm:max-w-lg md:max-w-xl lg:max-w-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-2xl p-6 shadow-sm slide-up flex flex-col items-center text-center space-y-4">
+            
+            <div className="p-3 bg-red-50 dark:bg-red-950/30 rounded-full text-red-600 dark:text-red-400 shrink-0">
+              <AlertCircle className="size-6" />
+            </div>
+
+            <div className="space-y-1.5 w-full">
+              <h2 className="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+                ไม่พบข้อมูล
+              </h2>
+              <p className="text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed wrap-break-word w-full whitespace-normal">
+                {error || 'กรุณาตรวจสอบลิงก์ใหม่อีกครั้ง'}
+              </p>
+            </div>
+
+          </div>
+        </main>
+        
+        {/* Footer */}
+        <footer className="py-6 border-t border-zinc-200 dark:border-zinc-800 bg-white/50 dark:bg-zinc-900/50 text-center text-xs text-zinc-400">
+          &copy; {new Date().getFullYear()} Rubphone Shop. All rights reserved.
+        </footer>
       </div>
     )
   }
 
+  // --- 3. SUCCESS STATE ---
   const currentIdx = TRACK_STEPS.findIndex(s => s.key === caseData.status)
 
   return (
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 font-sans antialiased flex flex-col justify-between">
-      {/* Top Bar คล้ายหน้า Rubphone Shop ของเดิม */}
       <nav className="w-full bg-white/85 dark:bg-zinc-900/85 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 h-16 flex items-center">
         <div className="w-full max-w-3xl mx-auto px-4 flex items-center justify-between">
           <div className="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-50">Rubphone Shop</div>
@@ -122,7 +154,6 @@ export default function PublicTrackingPage({ params }: { params: Promise<{ order
       </nav>
 
       <main className="flex-1 px-4 py-12 max-w-3xl mx-auto w-full space-y-6">
-        {/* ส่วนหัวแสดงหัวข้อเคส */}
         <section className="fade-in space-y-2">
           <span className="text-xs font-bold text-blue-600 dark:text-blue-500 tracking-widest uppercase">Delivery Service Status</span>
           <h1 className="text-2xl sm:text-3xl font-bold text-zinc-900 dark:text-zinc-50 mt-1">{caseData.itemDetails}</h1>
@@ -134,15 +165,11 @@ export default function PublicTrackingPage({ params }: { params: Promise<{ order
           </div>
         </section>
 
-        {/* แถบไทม์ไลน์แสดงสถานะ (คัดลอก Logic และแอนิเมชันมาจากไฟล์ตัวอย่าง) */}
         <section className="slide-up">
           <Card className="shadow-sm">
             <CardContent className="p-5 sm:p-6 space-y-6">
-
               <div className="relative pt-2 pb-1">
-                {/* เส้นหลังสีเทา */}
                 <div className="absolute top-4 sm:top-6 left-0 w-full h-0.5 bg-zinc-200 dark:bg-zinc-800 z-0"></div>
-                {/* เส้นสีน้ำเงินวิ่งตามสถานะจริง */}
                 <div
                   className="absolute top-4 sm:top-6 left-0 h-0.5 bg-blue-600 dark:bg-blue-500 transition-all duration-500 z-0"
                   style={{ width: `${(currentIdx / (TRACK_STEPS.length - 1)) * 100}%` }}
@@ -174,12 +201,10 @@ export default function PublicTrackingPage({ params }: { params: Promise<{ order
                   })}
                 </div>
               </div>
-
             </CardContent>
           </Card>
         </section>
 
-        {/* บล็อกข้อมูลเพิ่มเติมของเคส */}
         <section className="slide-up">
           <Card className="shadow-sm">
             <CardContent className="p-4 sm:p-5 text-xs sm:text-sm space-y-0">
@@ -202,8 +227,7 @@ export default function PublicTrackingPage({ params }: { params: Promise<{ order
         </section>
       </main>
       
-      {/* Footer */}
-      <footer className="py-6 border-t border-zinc-200 dark:border-zinc-800 bg-white/50 dark:bg-zinc-900/50 text-center text-xs text-zinc-400">
+      <footer className="site-footer">
         &copy; {new Date().getFullYear()} Rubphone Shop. All rights reserved.
       </footer>
     </div>

@@ -30,8 +30,10 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env and local files (can opt-in for committing if needed)
 .env*
+.env.local
+.env.development.local
 
 # vercel
 .vercel
@@ -39,3 +41,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# vscode
+.vscode/*
+
+# agent
+/agent*
+
+# MDX
+DESIGN.md
+GEMINI.md
+history.md
+m.txt
+
+

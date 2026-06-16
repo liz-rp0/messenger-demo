@@ -212,4 +212,9 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(156, 163, 175, 0.5);
+}z
+
+.site-footer {
+  @apply py-6 border-t border-zinc-200 bg-white/50 text-center text-xs text-zinc-400 
+         dark:border-zinc-800 dark:bg-zinc-900/50;
 }

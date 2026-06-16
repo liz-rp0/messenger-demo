@@ -4,7 +4,6 @@ import { useRouter } from "next/navigation";
 import {
   Search,
   ClipboardList,
-  Phone,
   ShieldCheck,
   History,
   ArrowRight,
@@ -18,7 +17,6 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
 
 export default function TrackingSearchPage() {
   const router = useRouter();
@@ -92,26 +90,26 @@ export default function TrackingSearchPage() {
 
       {/* Main Content Container */}
       <main className="grow shrink-0 flex flex-col w-full items-center justify-center px-4 py-12">
-        <div className="w-full max-w-md min-w-85 space-y-6 mx-auto">
+        <div className="w-full max-w-full sm:max-w-xl lg:max-w-2xl space-y-6 mx-auto">
           <div className="text-center space-y-2 flex flex-col items-center justify-center w-full">
-            <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 whitespace-nowrap">
+            <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
               ติดตามงาน รับ-ส่ง
             </h1>
             <p className="text-sm text-zinc-500 dark:text-zinc-400 text-center">
-              กรอกหมายเลขใบงาน หรือเบอร์โทรศัพท์ของคุณเพื่อเช็คสถานะล่าสุด
+              กรอกหมายเลขงาน หรือเบอร์โทรศัพท์ของคุณเพื่อเช็คสถานะล่าสุด
             </p>
           </div>
 
           <Card className="w-full bg-white/70 dark:bg-zinc-900/70 border border-zinc-200/80 dark:border-zinc-800/80 rounded-xl p-6 shadow-lg backdrop-blur-xs">
             <CardHeader className="pb-3 w-full">
-              <CardTitle className="text-base font-bold flex items-center gap-2 whitespace-nowrap">
+              <CardTitle className="text-base font-bold flex flex-wrap items-center gap-2">
                 <Search className="size-4 text-blue-500" />
                 ค้นหาข้อมูล
               </CardTitle>
               <CardDescription className="text-xs">
-                รองรับรูปแบบใบงาน เช่น{" "}
+                รองรับรูปแบบเลขงาน เช่น{" "}
                 <code className="font-mono bg-zinc-100 dark:bg-zinc-800 px-1 rounded">
-                  RP-XXXXXX
+                  RP-xxxxxx
                 </code>{" "}
                 หรือ เบอร์โทรศัพท์ของผู้รับ
               </CardDescription>
@@ -127,7 +125,7 @@ export default function TrackingSearchPage() {
                 <div className="relative w-full">
                   <Input
                     type="text"
-                    placeholder="เลขใบงาน หรือ เบอร์โทรศัพท์  "
+                    placeholder="เลขงาน หรือ เบอร์โทรศัพท์  "
                     value={query}
                     onChange={(e) => {
                       setQuery(e.target.value);
@@ -137,8 +135,6 @@ export default function TrackingSearchPage() {
                   />
                   <div className="absolute right-3 top-3.5 flex items-center gap-1.5 text-zinc-400">
                     <ClipboardList className="size-4" />
-                    <span className="text-xs">/</span>
-                    <Phone className="size-4" />
                   </div>
                 </div>
 
@@ -192,7 +188,7 @@ export default function TrackingSearchPage() {
       </main>
 
       {/* Footer */}
-      <footer className="py-6 border-t border-zinc-200 dark:border-zinc-800 bg-white/50 dark:bg-zinc-900/50 text-center text-xs text-zinc-400">
+      <footer className="site-footer">
         <div className="flex items-center justify-center gap-2 text-xs text-zinc-400 w-full">
           <ShieldCheck size={14} className="text-emerald-500" />
           <span>คุ้มครองและทำรายการผ่านระบบของ rubphoneshop ปลอดภัย 100%</span>
